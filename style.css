@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* ---- Header / Nav ---- */
+.site-header {
+  background-color: #ce55a5;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.site-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
