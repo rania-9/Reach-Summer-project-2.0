@@ -14,12 +14,12 @@ function App() {
         <Parallax pages={4} ref={ref}>
           <ParallaxLayer
             sticky={{ start: 0, end: 1 }}>
-            <img src={brickbrain} />
+            <img src={brain} />
           </ParallaxLayer>
           <ParallaxLayer
             horizontal={true}
             >
-            <img src={nicotine} />
+            <img src={brain} />
           </ParallaxLayer>
         </Parallax>
       </div>
