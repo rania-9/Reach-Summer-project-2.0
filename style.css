@@ -1,4 +1,4 @@
-/* {
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
 }
 
 /* ---- Header / Nav ---- */
-/*.site-header {
+.site-header {
   background-color: #ce55a5;
   height: 70px;
   position: sticky;
@@ -40,4 +40,4 @@ body {
 
 .site-nav a:hover {
   text-decoration: underline;
-}*/
+}
